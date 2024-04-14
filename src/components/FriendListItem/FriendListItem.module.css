@@ -1,0 +1,32 @@
+.item {
+    list-style-type: none;
+    padding: 0;
+    width: 300px;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.name {
+    display: inline;
+}
+
+.status {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    vertical-align: super;
+    margin-right: 10px;
+}
+
+.active {
+    background-color: green;
+}
+
+.inactive {
+    background-color: red;
+}
+
+.avatar {
+    margin-right: 10px;
+}
